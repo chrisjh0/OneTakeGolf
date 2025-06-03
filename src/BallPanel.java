@@ -112,7 +112,7 @@ public class BallPanel extends JPanel implements MouseListener, MouseMotionListe
                 velocityY = 0;
             }
 
-            if (tile == 2 && Math.abs(velocityX) < 8.0 && Math.abs(velocityY) < 8.0) {
+            if (tile == 2 && Math.abs(velocityX) < 10.0 && Math.abs(velocityY) < 10.0) {
                 board = new Board();
                 resetBall();
             }
