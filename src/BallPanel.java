@@ -117,7 +117,7 @@ public class BallPanel extends JPanel implements MouseListener, MouseMotionListe
                 resetBall();
             }
 
-            if (velocityX == 0 && velocityY == 0 && shot == true) {
+            if (velocityX == 0 && velocityY == 0 && shot) {
                 timer.stop();
                 JOptionPane.showMessageDialog(this, "You lost, no hole in one!");
                 System.exit(0);
